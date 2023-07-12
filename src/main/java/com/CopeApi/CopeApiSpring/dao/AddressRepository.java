@@ -1,11 +1,11 @@
 package com.CopeApi.CopeApiSpring.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+import org.springframework.stereotype.Repository;
 
 import com.CopeApi.CopeApiSpring.entity.Address;
 
-@RepositoryRestResource
+@Repository
 public interface AddressRepository extends JpaRepository <Address, Long>{
     
 }

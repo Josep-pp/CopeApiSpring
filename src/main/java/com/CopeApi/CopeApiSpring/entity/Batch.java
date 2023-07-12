@@ -32,6 +32,6 @@ public class Batch {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "batch")
     @JsonManagedReference
-    private Set<OrderLine> orderLine;
+    private Set<OrderLine> orderLines;
     
 }
